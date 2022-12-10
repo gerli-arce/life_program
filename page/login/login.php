@@ -10,6 +10,8 @@
 <!-- App favicon -->
 <link rel="shortcut icon" href="assets/images/favicon.ico">
 
+<?php $prepath = '.'; ?>
+
 		<!-- App css -->
 <link href="assets/css/config/default/bootstrap.min.css" rel="stylesheet" type="text/css" id="bs-default-stylesheet" />
 <link href="assets/css/config/default/app.min.css" rel="stylesheet" type="text/css" id="app-default-stylesheet" />
@@ -22,7 +24,7 @@
 
     </head>
 
-    <body class="loading authentication-bg authentication-bg-pattern">
+    <body class="loading authentication-bg authentication-bg-pattern" data-layout='{"mode": "dark", "width": "fluid", "menuPosition": "fixed", "sidebar": { "color": "dark", "size": "default", "showuser": true}, "topbar": {"color": "dark"}, "showRightSidebarOnPageLoad": true}'>
 
         <div class="account-pages my-5">
             <div class="container">
@@ -31,7 +33,7 @@
                     <div class="col-md-8 col-lg-6 col-xl-4">
                         <div class="text-center">   
                             <a href="index.html">
-                                <img src="assets/images/logo-dark.png" alt="" height="22" class="mx-auto">
+                                <img src="img/live.svg" alt="" height="200"  class="mx-auto">
                             </a>
                             <p class="text-muted mt-2 mb-4">Bienvenido a Live</p>
 
@@ -85,7 +87,7 @@
             <!-- end container -->
         </div>
         <!-- end page -->
-
+        <script src="js/variables.js"></script>
         <!-- Vendor js -->
         <script src="assets/js/vendor.min.js"></script>
 

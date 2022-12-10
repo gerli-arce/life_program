@@ -23,7 +23,8 @@
     # VIEWS
     RewriteRule ^login                      page/login/login.php [QSA]
     RewriteRule ^home                       page/home/home.php [QSA]
-    RewriteRule ^modules                    pages/modules/modules.php [QSA]
+    RewriteRule ^metasdevida                page/metas_vida/metas_vida.php [QSA]
+    RewriteRule ^mañana                     page/manana/manana.php [QSA]
     RewriteRule ^environments               pages/environments/environments.php [QSA]
     RewriteRule ^users                      pages/users/users.php [QSA]
     RewriteRule ^views                      pages/views/views.php [QSA]
@@ -32,15 +33,18 @@
     # ASSETS
     RewriteRule ^assets/(.+)                lte/assets/$1 [QSA]
     RewriteRule ^gLibraries/(.+)            pages/gLibraries/$1.min.js [QSA]
-    RewriteRule ^session                    pages/session/session.php [QSA]
-    RewriteRule ^script/(.+)/(.+)           pages/$1/$1.js?v=$2 [QSA]
+    RewriteRule ^session                    page/session/session.php [QSA]
+    RewriteRule ^script/(.+)/(.+)           page/$1/$1.js?v=$2 [QSA]
     RewriteRule ^crud/(.+)/(.+)             pages/$1/crud.js?v=$2 [QSA]
-    RewriteRule ^extra/(.+)/(.+)             pages/$1/extra.js?v=$2 [QSA]
+    RewriteRule ^extra/(.+)/(.+)            pages/$1/extra.js?v=$2 [QSA]
+    RewriteRule ^js/(.+)                    page/js/$1 [QSA]
+    RewriteRule ^img/(.+)                   page/imgs/$1 [QSA]
     
     ####  END VIEWS  ####
 
     ### ASSETS ###
 
-    RewriteRule ^assets/(.+)                lte/assets/$1 [QSA]
+    # RewriteRule ^assets/(.+)                lte/assets/$1 [QSA]
+    # RewriteRule ^lte/(.+)                lte/$1 [QSA]
 
 </IfModule>

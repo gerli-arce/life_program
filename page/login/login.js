@@ -9,12 +9,9 @@ form_login.onsubmit = async (e)=>{
     if(response.ok){
         let responsejson = await response.json()
         location.href = "home"
-        consxole.log(responsejson)
     }else{
         let responsetext = await response.json()
-        console.log(responsetext)
     }
-
 }
 
 async function fn_login(data) {

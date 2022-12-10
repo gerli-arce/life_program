@@ -6,11 +6,11 @@
 <link rel="shortcut icon" href="assets/images/favicon.ico">
 
         <!-- App css -->
-<link href="assets/css/config/default/bootstrap.min.css" rel="stylesheet" type="text/css" id="bs-default-stylesheet" />
-<link href="assets/css/config/default/app.min.css" rel="stylesheet" type="text/css" id="app-default-stylesheet" />
+<link href="<?php echo isset($prepath) ? $prepath : null; ?>./assets/css/config/default/bootstrap.min.css" rel="stylesheet" type="text/css" id="bs-default-stylesheet" />
+<link href="<?php echo isset($prepath) ? $prepath : null; ?>./assets/css/config/default/app.min.css" rel="stylesheet" type="text/css" id="app-default-stylesheet" />
 
-<link href="assets/css/config/default/bootstrap-dark.min.css" rel="stylesheet" type="text/css" id="bs-dark-stylesheet" disabled="disabled" />
-<link href="assets/css/config/default/app-dark.min.css" rel="stylesheet" type="text/css" id="app-dark-stylesheet" disabled="disabled" />
+<link href="<?php echo isset($prepath) ? $prepath : null; ?>./assets/css/config/default/bootstrap-dark.min.css" rel="stylesheet" type="text/css" id="bs-dark-stylesheet" disabled="disabled" />
+<link href="<?php echo isset($prepath) ? $prepath : null; ?>./assets/css/config/default/app-dark.min.css" rel="stylesheet" type="text/css" id="app-dark-stylesheet" disabled="disabled" />
 
 <!-- icons -->
-<link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+<link href="<?php echo isset($prepath) ? $prepath : null; ?>./assets/css/icons.min.css" rel="stylesheet" type="text/css" />

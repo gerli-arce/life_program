@@ -706,6 +706,8 @@
 <div class="rightbar-overlay"></div>
 
     <?php include_once '../../components/scripts.php'; ?>
+    <script src="./script/home/home"></script>
+
         
     </body>
 </html>
