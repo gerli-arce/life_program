@@ -61,7 +61,7 @@
 <div class="rightbar-overlay"></div>
 
     <?php include_once '../../components/scripts.php';?>
-    <script src="./script/metas_vida/metas_vida"></script>
+    <script src="./script/lifegoals/lifegoals"></script>
 
     </body>
 </html>

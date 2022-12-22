@@ -48,12 +48,12 @@
                                 <form id="form_login">
                                     <div class="mb-3">
                                         <label for="emailaddress" class="form-label">Nombre de usuario</label>
-                                        <input class="form-control" type="text" id="user" required="" placeholder="Ingrese su usuario">
+                                        <input class="form-control" type="text" id="user" required placeholder="Ingrese su usuario">
                                     </div>
 
                                     <div class="mb-3">
                                         <label for="password" class="form-label">Contraseña</label>
-                                        <input class="form-control" type="password" required="" id="password" placeholder="Ingrese su contraseña">
+                                        <input class="form-control" type="password" required id="password" placeholder="Ingrese su contraseña">
                                     </div>
 
                                     <div class="mb-3">

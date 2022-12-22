@@ -6,11 +6,18 @@ form_login.onsubmit = async (e)=>{
     request.password = password.value;
 
     let response = await fn_login(request);
-    if(response.ok){
+    console.log(response)
+    if(response.status = "200"){
         let responsejson = await response.json()
         location.href = "home"
     }else{
-        let responsetext = await response.json()
+      if(response){
+        let responsetext = await response.json();
+
+        console.log(responsetext)
+      }else{
+        alert('fallo la operacion')
+      }
     }
 }
 

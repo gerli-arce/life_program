@@ -71,7 +71,7 @@
                 <li class="menu-title mt-2">Yo</li>
 
                 <li>
-                    <a href="metasdevida">
+                    <a href="lifegoals">
                         <i class="fe-map-pin"></i>
                         <span> Metas de Vida </span>
                     </a>

@@ -23,7 +23,7 @@
     # VIEWS
     RewriteRule ^login                      page/login/login.php [QSA]
     RewriteRule ^home                       page/home/home.php [QSA]
-    RewriteRule ^metasdevida                page/metas_vida/metas_vida.php [QSA]
+    RewriteRule ^lifegoals                  page/lifegoals/lifegoals.php [QSA]
     RewriteRule ^mañana                     page/manana/manana.php [QSA]
     RewriteRule ^environments               pages/environments/environments.php [QSA]
     RewriteRule ^users                      pages/users/users.php [QSA]
